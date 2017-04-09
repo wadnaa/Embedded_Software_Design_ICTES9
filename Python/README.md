@@ -1,2 +1,2 @@
-# SoftwareTrain
-Train simulator
+# Python code for Train
+KU Train simulator
