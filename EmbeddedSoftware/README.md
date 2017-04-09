@@ -1,2 +1,2 @@
-# SoftwareTrain
-Train simulator
+# Embeded software for train
+KU Train simulator
