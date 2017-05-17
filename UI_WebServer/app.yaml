@@ -1,3 +1,10 @@
+## Final Project ##
+## Create By ##
+## ICTES Batch 9 Student ##
+## Name : Panaree Chaipayom ##
+## Student ID : 5914552001 ##
+## File Descaeption : Config Web Server ##
+
 # This file specifies your Python application's runtime configuration
 # including URL routing, versions, static file uploads, etc. See
 # https://developers.google.com/appengine/docs/python/config/appconfig
@@ -16,16 +23,52 @@ handlers:
 # where <wsgi_application> is a WSGI application object.
 - url: /bootstrap
   static_dir: bootstrap
+  
+- url: /siit
+  script: main_siit.app
 
-- url: / 
+- url: /
   script: main.app
   
-- url: /getlocation
-  script: getlocation.app
+- url: /ku 
+  script: main_ku.app
   
-- url: /getdistance
-  script: getdistance.app
+- url: /insertdistance_siit
+  script: insertdistance_siit.app
+  
+- url: /insertdistance_ku
+  script: insertdistance_ku.app
+   
+- url: /getlocation_siit
+  script: getlocation_siit.app 
+ 
+- url: /getlocation_ku
+  script: getlocation_ku.app
 
+- url: /insert_traffic_siit
+  script: inserttraffic_siit.app  
+  
+- url: /insert_traffic_ku
+  script: inserttraffic_ku.app  
+  
+- url: /get_traffic_siit
+  script: gettraffic_siit.app
+  
+- url: /get_traffic_ku
+  script: gettraffic_ku.app
+  
+- url: /getstatus_siit
+  script: getstatus_siit.app
+  
+- url: /getstatus_ku
+  script: getstatus_ku.app
+  
+- url: /insertstatus_siit
+  script: insertstatus_siit.app
+  
+- url: /insertstatus_ku
+  script: insertstatus_ku.app
+  
 libraries:
 - name: webapp2
   version: "2.5.2"
