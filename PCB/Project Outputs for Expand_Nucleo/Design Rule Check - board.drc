@@ -1,0 +1,116 @@
+Protel Design System Design Rule Check
+PCB File : D:\GoogleDrive\Study\Master\SemesterII\Software Embedded\PCB\board.PcbDoc
+Date     : 21/4/2017
+Time     : 14:47:46
+
+Processing Rule : Net Antennae (Tolerance=0mil) (All)
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=10mil) (All),(All)
+   Violation between Text "TX/D1" (5073mil,3963.929mil)  Top Overlay and 
+                     Track (4899mil,3896mil)(5186mil,3896mil)  Top Overlay
+   Violation between Text "RX/D0" (5173mil,3963.929mil)  Top Overlay and 
+                     Track (4899mil,3896mil)(5186mil,3896mil)  Top Overlay
+   Violation between Text "A1" (4768mil,2238.071mil)  Top Overlay and 
+                     Track (4579mil,2231mil)(4861mil,2231mil)  Top Overlay
+   Violation between Text "A0" (4668mil,2238.071mil)  Top Overlay and 
+                     Track (4579mil,2231mil)(4861mil,2231mil)  Top Overlay
+   Violation between Text "A2" (4868mil,2238.071mil)  Top Overlay and 
+                     Track (4579mil,2231mil)(4861mil,2231mil)  Top Overlay
+   Violation between Text "A2" (4868mil,2238.071mil)  Top Overlay and 
+                     Track (4861mil,2231mil)(4861mil,2348mil)  Top Overlay
+   Violation between Text "GND" (4268mil,2238.071mil)  Top Overlay and 
+                     Track (4279mil,2231mil)(4279mil,2334mil)  Top Overlay
+   Violation between Text "GND" (4268mil,2238.071mil)  Top Overlay and 
+                     Track (4279mil,2231mil)(4561mil,2231mil)  Top Overlay
+   Violation between Text "Vin" (4468mil,2238.071mil)  Top Overlay and 
+                     Track (4279mil,2231mil)(4561mil,2231mil)  Top Overlay
+   Violation between Text "GND" (4368mil,2238.071mil)  Top Overlay and 
+                     Track (4279mil,2231mil)(4561mil,2231mil)  Top Overlay
+   Violation between Text "D13" (3808mil,3953.929mil)  Top Overlay and 
+                     Track (3572mil,3923mil)(4036mil,3923mil)  Top Overlay
+   Violation between Text "GND" (3708mil,3953.929mil)  Top Overlay and 
+                     Track (3572mil,3923mil)(4036mil,3923mil)  Top Overlay
+   Violation between Text "D11" (4008mil,3953.929mil)  Top Overlay and 
+                     Track (3572mil,3923mil)(4036mil,3923mil)  Top Overlay
+   Violation between Text "AREF" (3608mil,3953.929mil)  Top Overlay and 
+                     Track (3572mil,3923mil)(4036mil,3923mil)  Top Overlay
+   Violation between Text "D12" (3908mil,3953.929mil)  Top Overlay and 
+                     Track (3572mil,3923mil)(4036mil,3923mil)  Top Overlay
+   Violation between Text "AREF" (3608mil,3953.929mil)  Top Overlay and 
+                     Track (3564mil,3517mil)(3564mil,3923mil)  Top Overlay
+   Violation between Text "AREF" (3608mil,3953.929mil)  Top Overlay and 
+                     Track (3564mil,3923mil)(3572mil,3923mil)  Top Overlay
+Rule Violations :17
+
+Processing Rule : Silkscreen Over Component Pads (Clearance=10mil) (All),(All)
+   Violation between Text "RX/D0" (5173mil,3963.929mil)  Top Overlay and 
+                     Pad S1-4(5130.583mil,3840.795mil)  Top Layer
+Rule Violations :1
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=10mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=10mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=20mil) (Max=260mil) (All)
+Rule Violations :0
+
+Processing Rule : Minimum Annular Ring (Minimum=8mil) (All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=8mil) (Max=200mil) (Preferred=10mil) (All)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=50mil) (Max=200mil) (Preferred=50mil) (InNetClass('Power'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=5mil) (Max=200mil) (Preferred=7.874mil) (All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=10mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=7mil) ((InPadClass('All Pads') AND InComponentClass('All Components'))),((InPadClass('All Pads') AND InComponentClass('All Components')))
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=8mil) ((IsTrack AND InDifferentialPairClass('All Differential Pairs'))),((IsTrack AND InDifferentialPairClass('All Differential Pairs')))
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=15mil) ((IsVia)),((IsVia))
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=15mil) ((IsVia)),((IsPad))
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=10mil) (InPoly),(InPoly)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=20mil) (IsFill OR InPoly),(IsFill)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=20mil) (InNetClass('PowerNets')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=50mil) (InPoly),(HasPad('Free-'))
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=20mil) (OnLayer('KeepOutLayer')),(All)
+Rule Violations :0
+
+
+Violations Detected : 18
+Time Elapsed        : 00:00:05

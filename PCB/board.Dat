@@ -1,0 +1,19 @@
+Field=Comment~String~Comment~100|Field=Description~String~Description~100|Field=Designator~String~Designator~100|Field=Footprint~String~Footprint~100|Field=LibRef~String~LibRef~100|Field=Quantity~Integer~Quantity~100|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~Expand_Nucleo.PrjPcb|ReportField=ProjectFullPath~D:\GoogleDrive\Study\Master\SemesterII\Software Embedded\PCB\Expand_Nucleo.PrjPcb|ReportField=Title~Bill of Materials For PCB Document [board.PcbDoc]|ReportField=TotalQuantity~47|ReportField=ReportTime~15:11:09|ReportField=ReportDate~21/4/2017|ReportField=ReportDateTime~21/4/2017 15:11:09|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=DataSourceFileName~board.PcbDoc|ReportField=DataSourceFullPath~D:\GoogleDrive\Study\Master\SemesterII\Software Embedded\PCB\board.PcbDoc
+0.1uF|Capacitor|C1, C2, C3, C5|CAP0603|Cap|4
+1uF|Chip Monolithic Ceramic Cap 1uF/50Vdc, ±10%, X5R|C4, C6|CAP0603|Cap|2
+RED|Typical BLUE LED Round 3mm|D1, D5, D8|LED_RED_3MM|LED3|3
+YELLOW|Typical GREEN LED Round 3mm|D2, D6, D9|LED_YELLOW_3MM|LED3|3
+GREEN|Typical GREEN LED Round 3mm|D3, D7, D10|LED_GREEN_3MM|LED3|3
+PMLL4148L|HIGH-SPEED SWITCHING DIODES 75V/200MA|D4|SOD_08|Diode|1
+NUCLEO F401RE Arduino Shield|NUCLEO F401RE Arduino UNO shield|P1|NECLEO_F401RE_SHIELD|NUCLEO_F401RE_ARDUINO_SHEILD|1
+Header 4|Pin Header Connector 4 Pins,2.54mm Pitch|P2|PIN_STRAIGHT_1X4|Header 4|1
+RS485|Header, 2-Pin|P3, P4|5EHDRC_1X2|Header 2|2
+10k|Thick Film Chip Resistors 10KO ±1%,1/10W|R1, R2, R3, R4, R5, R6, R7|RES0603|Res1|7
+100|Thick Film Chip Resistors 10KO ±1%,1/10W|R8, R9, R10, R14, R15, R16, R18, R19, R20|RES_VERTICAL_1/4W|Res1|9
+1k|Thick Film Chip Resistors 1KO ±1%,1/10W|R11, R13|RES0603|Res1|2
+1K|Trimpot 1 Turns, 1kO,±10%, 0.5 w.|R12, R17|POTEN_3362P|Res Tap|2
+TACT_SW|Tact Switch 6x6mm, 4 Pins SMD|S1, S2, S3|TACT_SW_6X6|TACT_SW|3
+SW DIP-4|DIP Switch, 4 Position, SPST|S4|DIP_SW_4|SW DIP-4|1
+Buzzer||U1|MAGNETIC_BUZZER|Buzzer|1
+MMBT4401LT1G|Switching Transistor NPN 40V/0.6A|U2|SOT-23A|NPN|1
+SN75176BDR|Low-Power, Slew-Rate-Limited RS-485/RS-422 Transceiver|U3|SOIC8|MAX485CSA|1

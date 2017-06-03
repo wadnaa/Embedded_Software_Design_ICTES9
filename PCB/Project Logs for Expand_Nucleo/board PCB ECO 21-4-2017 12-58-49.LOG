@@ -1,0 +1,15 @@
+Removed Pin From Net: NetName=SW1 Pin=S1-2
+Removed Pin From Net: NetName=GND Pin=S1-3
+Removed Pin From Net: NetName=SW2 Pin=S2-2
+Removed Pin From Net: NetName=GND Pin=S2-3
+Removed Pin From Net: NetName=SW2 Pin=S3-2
+Removed Pin From Net: NetName=GND Pin=S3-3
+Change Component Library : Designator=S1 Old Library=Connector.SchLib New Library=Misc.SchLib
+Change Component Library : Designator=S2 Old Library=Connector.SchLib New Library=Misc.SchLib
+Change Component Library : Designator=S3 Old Library=Connector.SchLib New Library=Misc.SchLib
+Added Pin To Net: NetName=GND Pin=S1-2
+Added Pin To Net: NetName=SW1 Pin=S1-3
+Added Pin To Net: NetName=GND Pin=S2-2
+Added Pin To Net: NetName=SW2 Pin=S2-3
+Added Pin To Net: NetName=GND Pin=S3-2
+Added Pin To Net: NetName=SW2 Pin=S3-3
