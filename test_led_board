@@ -1,0 +1,20 @@
+#include "mbed.h" 
+
+DigitalOut led1(D14); 
+DigitalOut led2(D15); 
+DigitalOut led3(D12); 
+DigitalOut led4(D11); 
+DigitalOut led5(D13); 
+DigitalOut led6(D10); 
+// main() runs in its own thread in the OS 
+int main() { 
+    while (true) { 
+        led1 = !led1; 
+        led2 = !led2; 
+        led3 = !led3; 
+        led4 = !led4; 
+        led5 = !led5; 
+        led6 = !led6; 
+        wait(1); 
+    } 
+}
