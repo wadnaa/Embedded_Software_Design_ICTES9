@@ -1,0 +1,67 @@
+#include "mbed.h"
+DigitalOut led_set1_green (D13);   // D13
+DigitalOut led_set1_yellow (D14);   // D14
+DigitalOut led_set1_red (D15);   // D15
+
+DigitalOut led_set2_red (D12);
+DigitalOut led_set2_yellow (D11);
+DigitalOut led_set2_green (D10);
+
+DigitalOut led_set3_red (PC_6);
+DigitalOut led_set3_yellow (PC_5);
+DigitalOut led_set3_green (PA_12);
+PwmOut buzzer (PA_11);
+
+// change order 5 -> 3
+DigitalIn Tac_1 (D5) ;
+DigitalIn Tac_2 (D4) ;
+DigitalIn Tac_3 (D3) ;
+// change order 9 -> 6
+DigitalIn Dip_1 (D9) ;
+DigitalIn Dip_2 (D8) ;
+DigitalIn Dip_3 (D7) ;
+DigitalIn Dip_4 (D6) ;
+
+int main() {
+// SELECT ONLY ONE TESTING from 4 Test at a time and COMMENT OTHERs TESTING 
+       
+        // 1. Buzzer Testing        
+    // specify period first
+    buzzer.period(0.001f);      // 1 ms period (1 kHz)
+    buzzer.write(0.50f);      // 50% duty cycle, relative to period
+     
+    while(1) {
+        // 2. Led Testing
+//        led_set1_green = 1;
+//        led_set1_yellow = 1;
+//        led_set1_red =   1;
+
+//        led_set2_red = 1;
+//        led_set2_yellow = 1;
+        //led_set2_green = 1;
+        
+//        led_set3_red = 1;
+//        led_set3_yellow = 1;
+//        led_set3_green = 1;
+
+        
+        // 3. 3-Tac switch Testing
+     //   if (Tac_1 == 0){ led_set2_red = 0;
+//        }else led_set2_red = 1;
+//        
+//        if (Tac_2 == 0){ led_set2_yellow = 0;
+//        }else led_set2_yellow = 1;
+//        
+//        if (Tac_3 == 0){ led_set1_green = 0;
+//        }else led_set1_green = 1;
+//        
+        // 4. 4-Dip switch Testing
+        if (Dip_1 == 0){ 
+        led_set1_green = 1;
+        wait(1.0);
+        led_set1_green = 0;
+        wait(1.0);
+        }else led_set1_green = 0;
+                
+    }
+}

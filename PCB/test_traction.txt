@@ -1,0 +1,59 @@
+#include "mbed.h"
+DigitalOut led_red2 (D12);
+DigitalOut led_red1 (D11);
+DigitalOut led_red0 (D10);
+
+DigitalOut led_green2 (PC_6);
+DigitalOut led_green1 (PC_5);
+DigitalOut led_green0 (PA_12);
+DigitalOut buzzer (PA_11);
+
+// change order 5 -> 3
+DigitalIn Tac_1 (D5) ;
+DigitalIn Tac_2 (D4) ;
+DigitalIn Tac_3 (D3) ;
+// change order 9 -> 6
+DigitalIn Dip_1 (D9) ;
+DigitalIn Dip_2 (D8) ;
+DigitalIn Dip_3 (D7) ;
+DigitalIn Dip_4 (D6) ;
+
+int main() {
+    while(1) {
+// SELECT ONLY ONE TESTING from 3 Test at a time and COMMENT OTHERs TESTING 
+
+        // 1. Led, Buzzer Testing
+//        led_red2 = 1;
+//        led_red1 = 1;
+//        led_red0 = 1;       
+//        led_green2 = 1;
+//        led_green1 = 1;
+//        led_green0 = 1;
+//        buzzer = 1;
+        
+        // 2. 3-Tac switch Testing
+//        if (Tac_1 == 0){ led_red2 = 1;
+//        }else led_red2 = 0;
+//        
+//        if (Tac_2 == 0){ led_red1 = 1;
+//        }else led_red1 = 0;
+//        
+//        if (Tac_3 == 0){ led_red0 = 1;
+//        }else led_red0 = 0;
+        
+        // 3. 4-Dip switch Testing
+        if (Dip_1 == 0){ led_red2 = 1;
+        }else led_red2 = 0;
+        
+        if (Dip_2 == 0){ led_red1 = 1;
+        }else led_red1 = 0;
+        
+        if (Dip_3 == 0){ led_red0 = 1;
+        }else led_red0 = 0;      
+        
+        if (Dip_4 == 0){ led_green2 = 1;
+        }else led_green2 = 0;
+
+                
+    }
+}
